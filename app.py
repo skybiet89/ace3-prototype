@@ -225,14 +225,14 @@ def main():
     .main-header {
         background: linear-gradient(90deg, #1f77b4, #ff7f0e);
         -webkit-background-clip: text;
-        -webkit-text-fill-color: black;  # transparent>black
+        -webkit-text-fill-color: transparent;  # transparent>black
         font-size: 3rem;
         text-align: center;
         font-weight: bold;
         margin-bottom: 1rem;
     }
     .metric-card {
-        background-color: #f8f9fa;
+        background-color: #A52A2A;
         padding: 1rem;
         border-radius: 10px;
         border: 1px solid #dee2e6;
@@ -240,7 +240,7 @@ def main():
     }
     .recommendation-box {
         background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        color: red;            # white>red
+        color: white;            # white>red
         padding: 2rem;
         border-radius: 15px;
         text-align: center;
@@ -260,7 +260,7 @@ def main():
     col1, col2, col3 = st.columns([1, 2, 1])
     with col2:
         st.markdown("""
-        <div style="text-align: center; background-color: #e3f2fd; padding: 1rem; border-radius: 10px; margin-bottom: 2rem;">
+        <div style="text-align: center; background-color: #A52A2A; padding: 1rem; border-radius: 10px; margin-bottom: 2rem;">
         <h3>🤖 Powered by Machine Learning</h3>
         <p style="margin: 0;"><strong>CSV-Based Training • Real-time Predictions • 95% Accuracy</strong></p>
         </div>
