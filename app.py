@@ -225,7 +225,7 @@ def main():
     .main-header {
         background: linear-gradient(90deg, #1f77b4, #ff7f0e);
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        -webkit-text-fill-color: black;  # transparent>black
         font-size: 3rem;
         text-align: center;
         font-weight: bold;
@@ -240,7 +240,7 @@ def main():
     }
     .recommendation-box {
         background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        color: white;
+        color: red;            # white>red
         padding: 2rem;
         border-radius: 15px;
         text-align: center;
@@ -248,7 +248,7 @@ def main():
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
     .sidebar .sidebar-content {
-        background-color: #f8f9fa;
+        background-color: #f8f1fa; #replaced 9 with 1
     }
     </style>
     """, unsafe_allow_html=True)
